@@ -29,7 +29,7 @@ export default function App() {
   //changing bacground based on time
 
   useEffect(() => {
-    getLocationWeather("Chittorgarh");
+    getLocationWeather("Mumbai");
   }, []);
 
   return (
